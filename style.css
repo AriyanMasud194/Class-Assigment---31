@@ -1,0 +1,598 @@
+
+body{
+    background: #f0f3f2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.fixed_font{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.fixed_color{
+    color: #c6b089;
+}
+.fixedd_color{
+    color: #c6b089;
+    font-weight: 300 !important;
+}
+.red_color{
+    color: #ea5659;
+}
+
+
+/* ==================header_section================== */
+.header_section {
+	position: absolute;
+	top: ;
+	z-index: 2;
+	width: 100%;
+	background: transparent !important;
+	margin-top: 28px;
+}
+.header_menu .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif !important;
+	padding: 0 15px;
+}
+
+/* .menu .active{
+    border: 2px solid #fff;
+} */
+.menu .dropdown-menu{
+    display: block;
+    padding: 0;
+    width: 200px;
+    border: none;
+    transition: .4s;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    transform: translateY(30px);
+  
+
+
+}
+.nav-item:hover a {
+	color: red !important;
+}
+.menu:hover .dropdown-menu{
+   
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+
+}
+.menu .dropdown-menu .dropdown-item {
+	background: #fff !important;
+	color: #000 !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 35px;
+	border-bottom: 1px solid #ddd;
+   border-left: 3px solid transparent;
+}
+.menu .dropdown-menu .dropdown-item:hover{
+	   border-left: 3px solid #ea5659;
+}
+.nav-item {
+	line-height: 56px;
+}
+
+/* =====================banner_section==================== */
+.banner_section{
+    background-image: url(./img/restaurant_title_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner_title h1 {
+	font-size: 95px;
+	font-weight: 300;
+	letter-spacing: 4px;
+}
+.banner_title p {
+	font-size: 24px;
+	margin: 60px 0;
+	line-height: 44px;
+	font-weight: 400;
+}
+.defult_btn {
+	color: #b69d6e;
+	border-color: #b69d6e;
+	padding: 4px 28px;
+	border-radius: 30px;
+	font-size: 24px;
+	font-weight: 300;
+}
+.defult_btn:hover{
+    background: #b69d6e !important;
+    border-color: #b69d6e  !important;
+}
+.defult_btn i {
+
+	display: inline-block;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+/* ===================modern_section======================== */
+.modern_section{
+    background-image: url(./img/restaurant_post_bg.jpg);
+    background-repeat: no-repeat;
+}
+.m_right {
+	padding-left: 82px;
+}
+.m_right h1 {
+	font-size: 93px;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+.m_right h3 {
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 36px;
+}
+
+/* ======================count_section====================== */
+
+.count_section{
+    background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/* ==================image-section================== */
+
+.image_section{
+    background-image: url(./img/restaurant_post_bg.jpg);
+    background-repeat: no-repeat;
+}
+.signature img {
+	float: right;
+}
+.signature p {
+	float: left;
+	margin-top: ;
+}
+
+/* ===================carousel_section================= */
+
+.carousel_section{
+    background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel_section::before {
+	content: "";
+	top: 137px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-image: url(./img/28-2.png);
+	background-repeat: no-repeat;
+}
+
+.carousel_section::after {
+	content: "";
+	top: 137px;
+	height: 100%;
+	width: 100%;
+	right: -1770px;
+	position: absolute;
+	background-image: url(./img/28.png);
+	background-repeat: no-repeat;
+	left: ;
+}
+.corousel_btn button {
+	border: none !important;
+	height: 18px;
+	width: 19px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.caro_right {
+	margin-left: 72px;
+	margin-top: 100px;
+}
+.caro_right h2 {
+	font-size: 59px;
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+.caro_right p {
+	color: #b69d6e;
+	font-weight: ;
+	margin-top: 17px;
+}
+
+/* ===================Recipes-section======================= */
+.recipies_section{
+    background-image: url(./img/restaurant_post_bg.jpg);
+    background-repeat: no-repeat;
+}
+.r_left {
+	margin-top: 241px;
+	margin-left: 40px;
+}
+
+/* ===================Our_choose_section =================*/
+
+.choose_section{
+    background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+}
+.choose {
+	border: 1px solid #4c4d4e;
+	padding: 51px 0;
+	border-radius: 171px 171px 0 0;
+}
+.choose h4 {
+	font-weight: 300;
+}
+.choose_title h1 {
+	font-weight: 300;
+	font-size: 45px;
+	margin: 30px 0;
+	margin-top: 10px;
+}
+.images_c img {
+	width: 192px;
+}
+
+/* ==================service_section=================== */
+
+.service_section{
+    background-image: url(./img/restaurant_service_bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.s_icons span {
+	height: 50px !important;
+	width: 50px;
+	background: #e7272d;
+	color: #fff;
+	font-size: 17px;
+	padding: ;
+	border-radius: 50%;
+	transition: .5s;
+	display: block;
+	margin: auto;
+	border: 2px solid #e7272d;
+	line-height: 46px;
+}
+.service:hover{
+    background: #2b2a2a;
+    color: #fff;
+}
+.service {
+	background: #f4f2ef;
+	padding: 59px 25px !important;
+    transition: .5s;
+}
+.service:hover .s_icons span{
+   background: #fff;
+   color:#e7272d ;
+}
+.service:hover.service h3{
+    color:#e7272d; ;
+}
+.service h3 {
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 43px !important;
+    transition: .5s;
+}
+
+/* =================menu-section==================== */
+
+.menuu_section{
+    background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+}
+
+/* ===================Picture-section================ */
+
+.p_img{
+    position: relative;
+}
+
+.p_img img {
+	width: 100%;
+}
+
+.p_img:hover .inner_hover{
+    visibility: visible;
+    opacity: 1;
+  
+
+}
+.p_img:hover .inner_hover ul{
+    padding-top: 70px;
+}
+.p_img:hover .inner_hover h3 {
+    padding-top: 70px;
+}
+.inner_hover {
+	position: absolute;
+	left: 0;
+    height: 100%;
+	width: 100%;
+	color: #fff;
+	top: 0;
+	background: rgba(231, 39, 45,.5);
+	padding-top: 33px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s all;
+}
+.inner_hover ul{
+    transition: .5s;
+}
+.inner_hover ul li {
+	margin: 0 10px;
+}
+.hover_border {
+	height: 3px;
+	width: 0;
+	background: #fff;
+	margin: auto;
+    transition: .7s;
+    text-align: left;
+    margin-left: 40px;
+}
+.p_img:hover .hover_border{
+    width: 390px;
+}
+.inner_hover ul li span {
+	font-size: 28px;
+
+	padding-top: 20px;
+}
+.inner_hover h3 {
+	padding-top: 206px;
+	margin-left: 23px;
+    transition: .5s all;
+}
+.inner_buttons{
+    position: relative;
+}
+
+/* ===============borderd_section================== */
+
+.borderd_section{
+    background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+}
+.before_after {
+	width: 100%;
+	margin-top: 0 !important;
+}
+.div_one {
+	width: 100%;
+	height: 1px;
+	background: #b69d6e;
+	margin-top: 18px;
+}
+.div_two {
+	width: 100%;
+	height: 1px;
+	background: #b69d6e;
+	margin-top: 6px;
+}
+
+/* =====================carousel2_section========================= */
+
+.carousel2_section{
+    background-image: url(./img/restaurant_testimonial.jpg);
+    background-repeat: no-repeat;
+}
+.i_imgc img {
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+.carouselp {
+	font-size: 24px;
+}
+
+.i_imgc span {
+	font-size: 50px;
+    color: #b69d6e;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	background: transparent;
+	border: none;
+}
+
+/* =======================Blog-section====================== */
+.blog_section{
+    background-image: url(./img/restaurant_post_bg.jpg);
+    background-repeat: no-repeat;
+}
+.loves span {
+	margin-left: 277px;
+}
+.btncard {
+	border: 2px solid;
+	border-radius: 0;
+	padding: 3px 5px;
+	margin-left: 10px;
+}
+.t_title {
+	margin-bottom: .5rem;
+	font-weight: 300;
+}
+.card {
+	background: #f5f4ee;
+	padding-bottom: 11px;
+}
+
+.inner_blogs i {
+	font-size: 15px;
+	background: #000;
+	padding: 14px 20px;
+	border-radius: 50%;
+    transition: .3s;
+}
+.inner_blogs {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.6);
+	color: #fff;
+	text-align: center;
+	padding-top: 108px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.blogs_img:hover .inner_blogs {
+    visibility: visible;
+    opacity: 1;
+}
+.blogs_img:hover .inner_blogs i{
+    font-size: 42px;
+}
+.blogs_img {
+	position: relative;
+}
+.inner_blogs {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(251, 251, 251, 0.32);
+	color: #fff;
+	text-align: center;
+	padding-top: 108px;
+}
+
+/* ======================information_section========================= */
+
+.information_section {
+	background-image: url(./img/restaurant_contact_information.jpg);
+	background-repeat: no-repeat;
+	margin-top: -60px;
+}
+.info {
+	border: 1px solid #777;
+	padding: 20px 83px;
+	background: rgba(0,0,0,.5);
+	transition: .4s;
+}
+.info:hover{
+	border-color:#e7272d ;
+}
+
+.info:hover .info_icon{
+	background: #fff;
+	color:#e7272d ;
+}
+.info_icon {
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	border: 1px solid #e7272d;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 47px;
+	position: relative;
+	top: -44px;
+	background: #e7272d;
+	transition: .4s;
+}
+/* .info:hover .inff{
+	height: 0;
+	width: 0;
+} */
+/* .inff {
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	border: 1px solid #e7272d;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 47px;
+	position: relative;
+	top: 0;
+	background: #e7272d;
+	transition: .5s;
+} */
+.info h3 {
+	font-weight: 300;
+	margin-bottom: 24px;
+	transition: .4s;
+}
+.info:hover.info h3{
+	color: #e7272d ;
+}
+
+/* ===========================form_section================= */
+.form_section{
+	background-image: url(./img/restaurant_blackwood_bg.jpg);
+    background-repeat: no-repeat;
+}
+.input-group.form_style {
+	background: rgba(0,0,0,.4);
+	
+}
+.form_style input {
+	font-size: 18px;
+	border-color: rgb(87, 82, 82);
+	color: rgb(87, 82, 82) !important;
+}
+.form_style input:focus{
+     box-shadow: none !important;
+	 border-color: rgb(87, 82, 82);
+}
+.form_style span {
+	font-size: 22px;
+	border-color: rgb(87, 82, 82);
+	color: rgb(87, 82, 82) !important;
+}
+.texarea textarea {
+	width: 102%;
+	border-color: rgb(87, 82, 82);
+	background: rgba(0,0,0,.4) !important;
+	border-color: rgb(87, 82, 82) !important;
+	font-size: 22px;
+	padding: 10px;
+	border: 1px solid;
+	height: 274px;
+	outline: none !important;
+	color: #a5b5c4;
+}
+.texarea textarea:focus{
+	box-shadow: none !important;
+	border-color: rgb(87, 82, 82) !important;
+}
+
+/* ========footer_section======================== */
+.footer_section{
+	background: #141414;
+	color: #888;
+	margin-top: -1px;
+}
+
+.footer_c ul li a {
+	color: #888;
+}
+.list-inline li i{
+	transition: .5s;
+}
+.list-inline li i:hover {
+	color: #e7272d;
+	transform: scale(1.4);
+}
